@@ -1,0 +1,42 @@
+.homescreen {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+    img {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        filter: brightness(0.35);
+    }
+
+    h1 {
+        padding: 0.3em;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-weight: 300;
+        padding: 0.3em;
+        font-size: 1.4em;
+    }
+
+    span {
+        font-weight: 400;
+    }
+
+    .line {
+        width: 90%;
+        height: 1px;
+        background: rgba(255, 0, 51, 1);
+        ;
+    }
+}
