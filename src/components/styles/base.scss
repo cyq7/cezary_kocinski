@@ -1,0 +1,11 @@
+@mixin section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 10%;
+
+    h1 {
+        padding-bottom: 5%;
+    }
+}

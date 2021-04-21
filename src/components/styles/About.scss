@@ -1,15 +1,11 @@
+@import "./base.scss";
+
 .about {
-    width: 80%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    
+    @include section;
 
     .introduction, .description {
         padding: 5%;
+        font-weight: 300;
     }
 
 

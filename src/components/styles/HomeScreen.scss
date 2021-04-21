@@ -8,6 +8,8 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
+    font-family: 'Montserrat',
+    sans-serif;
 
     img {
         position: absolute;
@@ -15,16 +17,17 @@
         height: 100%;
         width: 100%;
         z-index: -1;
-        filter: brightness(0.35);
+        filter: brightness(0.25);
     }
 
     h1 {
         padding: 0.3em;
-        font-weight: 300;
+        font-weight: 200;
+        text-align: center;
     }
 
     h2 {
-        font-weight: 300;
+        font-weight: 100;
         padding: 0.3em;
         font-size: 1.4em;
     }
@@ -36,7 +39,7 @@
     .line {
         width: 90%;
         height: 1px;
-        background: rgba(255, 0, 51, 1);
+        background: rgb(255, 0, 50);
         ;
     }
 }

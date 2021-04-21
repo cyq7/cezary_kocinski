@@ -1,4 +1,12 @@
+@import "./base.scss";
+
 .skills {
-    min-height: 100vh;
+    @include section;
+    color: #eee;
     background: #111;
+
+    h1 {
+        color: #eee;
+    }
+    
 }

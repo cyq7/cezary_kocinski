@@ -28,12 +28,13 @@
 
         li {
             margin: 10px;
-            padding: 0.2em 1em;
+            padding: 0.1em 0.5em;
             font-weight: 300;
             cursor: pointer;
 
             &:hover {
-                background: rgb(255, 0, 51);
+                
+                background: rgb(255, 0, 51)
             }
         }
     }
