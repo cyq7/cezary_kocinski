@@ -1,17 +1,29 @@
-@import "./base.scss";
+@import './base.scss';
 
 .about {
     @include section;
+    color: #eee;
+    background: #111;
 
-    .introduction, .description {
-        padding: 5%;
-        font-weight: 300;
+    h1 {
+        color: #eee;
     }
 
+    .container {
+        display: block;
+        grid-template-columns: 1fr;
 
-    span {
-        color: #fff;
-        background: #000;
-        padding: 0.2em 0.4em;
+        .hobby {
+            padding: 3%;
+
+            h3 {
+                line-height: 1.5em;
+                padding: 3%;
+            }
+
+            p {
+                color: #aaa;
+            }
+        }
     }
 }

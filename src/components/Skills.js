@@ -7,61 +7,60 @@ const Skills = () => {
             <div className='container'>
                 <div className='category'>
                     <h3>Technologies</h3>
-                    <div className='inner-container'>
-                        <div>HTML5</div>
-                        <div>CSS3</div>
-                        <div>JavaScript</div>
-                        <div>React</div>
-                        <div>SASS</div>
-                        <div>REST API</div>
-                        <div>Axios</div>
-                        <div>GIT</div>
-                        <div>Bootstrap</div>
-                    </div>
+                    <ul className='inner-container'>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>SASS</li>
+                        <li>REST API</li>
+                        <li>Axios</li>
+                        <li>GIT</li>
+                        <li>Bootstrap</li>
+                    </ul>
                 </div>
                 <div className='category'>
                     <h3>Tools</h3>
-                    <div className='inner-container'>
-                        <div>VSC</div>
-                        <div>Atom</div>
-                        <div>Photoshop</div>
-                        <div>Illustrator</div>
-                        <div>MS Word</div>
-                        <div>MS Excel</div>
-                        <div>MS PowerPoint</div>
-                        <div>Fiddler</div>
-                        <div>Jira</div>
-                        <div>Visual Studio</div>
-                        <div>Testrail</div>
-                        <div>Confluence</div>
-                    </div>
+                    <ul className='inner-container'>
+                        <li>VSC</li>
+                        <li>Atom</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>MS Word</li>
+                        <li>MS Excel</li>
+                        <li>MS PowerPoint</li>
+                        <li>Fiddler</li>
+                        <li>Jira</li>
+                        <li>Visual Studio</li>
+                        <li>Testrail</li>
+                        <li>Confluence</li>
+                    </ul>
                 </div>
                 <div className='category'>
                     <h3>Testing</h3>
-                    <div className='inner-container'>
-                        <div>Software Testing</div>
-                        <div>Script Tests</div>
-                        <div>Smoke Tests</div>
-                        <div>Performance Tests</div>
-                        <div>Acceptance Tests</div>
-                        <div>Compliance Tests</div>
-                        <div>Regression & Retests</div>
-                        <div>SQL Queries</div>
-                        <div>Reporting and monitoring defects</div>
-                    </div>
+                    <ul className='inner-container'>
+                        <li>Software Testing</li>
+                        <li>Script Tests</li>
+                        <li>Smoke Tests</li>
+                        <li>Performance Tests</li>
+                        <li>Acceptance</li>
+                        <li>Compliance</li>
+                        <li>Regression</li>
+                        <li>SQL Queries</li>
+                    </ul>
                 </div>
                 <div className='category'>
                     <h3>Platforms</h3>
-                    <div className='inner-container'>
-                        <div>Windows</div>
-                        <div>Android</div>
-                        <div>iOS</div>
-                        <div>PlayStation</div>
-                        <div>Xbox</div>
-                        <div>Nintendo Switch</div>
-                        <div>PlayStation VR</div>
-                        <div>Oculus Rift</div>
-                    </div>
+                    <ul className='inner-container'>
+                        <li>Windows</li>
+                        <li>Android</li>
+                        <li>iOS</li>
+                        <li>PlayStation</li>
+                        <li>Xbox</li>
+                        <li>Nintendo Switch</li>
+                        <li>PlayStation VR</li>
+                        <li>Oculus Rift</li>
+                    </ul>
                 </div>
             </div>
         </div>

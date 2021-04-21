@@ -1,15 +1,34 @@
+import { useEffect } from 'react';
 import './styles/About.scss'
 
 const About = () => {
+    const sportSnippet = "<strong>import</strong> { Football, Gym, MMA } <strong>from</strong> 'sport'"
+    const naturalSciencesSnippet = "naturalSciences.<strong>map</strong>(e &nbsp <strong>=></strong> &nbsp { <br /> &nbsp &nbsp &nbsp &nbsp e  <strong>===</strong> chemistry &nbsp <strong>?</strong> &nbsp 'Ugh' &nbsp <strong>:</strong> &nbsp e.enjoy() <br />})"
+    const gamesSnippet = "<strong>do</strong> { <br /> &nbsp &nbsp play(Games) <br /> } <strong>while</strong> (getDate() < 3 AM)"
+
+    useEffect(() => {
+        document.getElementById('sportSnippet').innerHTML = sportSnippet;
+        document.getElementById('naturalSciencesSnippet').innerHTML = naturalSciencesSnippet;
+        document.getElementById('gamesSnippet').innerHTML = gamesSnippet;
+    }, [])
+
+ 
     return (
-        <div className="about">
+        <div className='about'>
             <h1>ABOUT ME</h1>
-            <div className="introduction">
-                <h2> Hi, my name is <span>Cezary</span> and I like to <strong>create</strong> things</h2>
-            </div>
-            <div className="description">
-                <p> I'm a Quality Assurance Specialist with 2 years of experience. I find it really cool, but I can't unleash my full potential in such a position. Since I can remember I have liked to create pretty things.  I also consider myself passionate about technology and what is associated with it. The front-end is a great combination of both of these worlds. I've been learning <strong>programming</strong> for over a year and I'm completely in love with it.
-                Most of my free time I spend on gym and computer games. </p>
+            <div className='container'>
+                <div className="hobby">
+                    <h3 id='sportSnippet'></h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections </p>
+                </div>
+                <div className="hobby">
+                    <h3 id='naturalSciencesSnippet'></h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections</p>
+                </div>
+                <div className="hobby">
+                    <h3 id='gamesSnippet'></h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections</p>
+                </div>
             </div>
         </div>
     )
