@@ -1,2 +1,6 @@
+@import './base.scss';
+
 .projects {
+    @include section;
+    background: #fff;
 }

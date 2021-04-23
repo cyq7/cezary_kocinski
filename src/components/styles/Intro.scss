@@ -2,6 +2,7 @@
 
 .intro {
     @include section;
+    background: #fff;
 
     .introduction, .description {
         padding: 5%;
