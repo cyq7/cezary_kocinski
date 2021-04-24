@@ -4,7 +4,7 @@
     @include section;
     color: #eee;
     background: #111;
-    // clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
+    clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 5% 100%);
     -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 5% 100%);
 
     h1 {
@@ -15,26 +15,51 @@
         position: relative;
         margin: 2% 0 10%;
     }
-    h3 {
+
+    h4 {
         line-height: 1.5em;
-        padding: 3%;
+        padding: 5% 0;
+
+        @media (min-width: 992px) {
+            font-size: 1.2em;
+        }
     }
 
     p {
-        color: #aaa;
-    }
-    span {
-        color: #fff;
+        color: #bbb;
     }
 
-    
+    span {
+        font-weight: 700;
+        color: rgb(255, 0, 50);
+    }
 
     .container {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        max-width: 1400px;
+        align-items: center;
+        margin-right: -3%;
+
+        .snippets {
+
+            @media (min-width: 992px) {
+                width: 40%;
+            }
+        }
 
         .hobby {
-            padding: 3%;
+            padding: 5%;
+            max-width: 1000px;
+            min-height: 410px;
+
+            @media (min-width: 992px) {
+                width: 60%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            flex-direction: row;
         }
     }
 

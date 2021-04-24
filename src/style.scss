@@ -16,11 +16,20 @@ body {
         h2 {
             line-height: 1.5em;
             font-size: 2em;
+
+            @media (min-width: 992px) {
+                font-size: 3em;
+            }
         }
 
-        h2 {
-            line-height: 1.5em;
+        h3 {
             font-size: 1.5em;
+            line-height: 1.5em;
+        }
+
+        h4 {
+            font-size: 1em;
+            line-height: 1.5em;
         }
 
         p {
@@ -28,6 +37,10 @@ body {
             text-align: justify;
             font-weight: 400;
             color: #555;
+
+            @media (min-width: 992px) {
+                font-size: 1.4em;
+            }
         }
 
         strong {

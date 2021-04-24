@@ -7,6 +7,7 @@
     background: #111;
     clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
     -webkit-clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
+    margin-left: -2%;
 
     h1 {
         color: #000;
@@ -20,6 +21,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr;
+        max-width: 1400px;
 
         @media (min-width: 1200px) {
             margin: 0;
