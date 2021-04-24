@@ -4,26 +4,48 @@
     @include section;
     color: #eee;
     background: #111;
+    // clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
+    -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 5% 100%);
 
     h1 {
-        color: #eee;
+        color: #000;
+        padding: 0 150%;
+        background: #fff;
+        transform: rotate(-3deg);
+        position: relative;
+        margin: 2% 0 10%;
+    }
+    h3 {
+        line-height: 1.5em;
+        padding: 3%;
     }
 
+    p {
+        color: #aaa;
+    }
+    span {
+        color: #fff;
+    }
+
+    
+
     .container {
-        display: block;
+        display: grid;
         grid-template-columns: 1fr;
 
         .hobby {
             padding: 3%;
-
-            h3 {
-                line-height: 1.5em;
-                padding: 3%;
-            }
-
-            p {
-                color: #aaa;
-            }
         }
+    }
+
+    &:after {
+         content: '';
+         width: 84%;
+         height: 80%;
+         position: absolute;
+         top: 10%;
+         left: 8%;
+         clip-path: polygon(0 0, 60% 0, 100% 25%, 100% 100%, 40% 100%, 0 75%);
+         border: 1px solid #fff;
     }
 }

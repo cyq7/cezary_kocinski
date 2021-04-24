@@ -33,7 +33,7 @@
             cursor: pointer;
 
             &:hover {
-                background: rgb(255, 0, 51)
+                background: rgb(255, 0, 50)
             }
         }
     }
@@ -42,6 +42,7 @@
 .sticky {
     background: rgba(0, 0, 0, 0.9);
     height: 60px;
+    border-bottom: 1px solid #fff;
 
     .logo {
         font-size: 1.5em;

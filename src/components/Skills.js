@@ -16,6 +16,7 @@ const Skills = () => {
                         <li>REST API</li>
                         <li>Axios</li>
                         <li>GIT</li>
+                        <li>npm</li>
                         <li>Bootstrap</li>
                     </ul>
                 </div>
@@ -24,6 +25,7 @@ const Skills = () => {
                     <ul className='inner-container'>
                         <li>VSC</li>
                         <li>Atom</li>
+                        <li>GitHub</li>
                         <li>Photoshop</li>
                         <li>Illustrator</li>
                         <li>MS Word</li>
@@ -40,7 +42,6 @@ const Skills = () => {
                     <h3>Testing</h3>
                     <ul className='inner-container'>
                         <li>Software Testing</li>
-                        <li>Script Tests</li>
                         <li>Smoke Tests</li>
                         <li>Performance Tests</li>
                         <li>Acceptance</li>

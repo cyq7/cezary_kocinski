@@ -2,17 +2,28 @@
 
 .skills {
     @include section;
+    padding: 150px 6%;
     color: #eee;
     background: #111;
-    // clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
+    -webkit-clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
 
     h1 {
-        color: #eee;
+        color: #000;
+        padding: 0 150%;
+        background: #fff;
+        transform: rotate(-3deg);
+        position: relative;
+        margin: 0 0 10%;
     }
-    
+
     .container {
         display: grid;
         grid-template-columns: 1fr;
+
+        @media (min-width: 1200px) {
+            margin: 0;
+        }
 
         .category {
             padding: 3%;
@@ -42,6 +53,10 @@
 
         @media (min-width: 768px) {
             grid-template-columns: 1fr 1fr;
+        }
+
+        @media (min-width: 1200px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
 }

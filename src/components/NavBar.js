@@ -13,8 +13,6 @@ const Navbar = () => {
         }
      }
 
-    console.log(isScrolled);
-
     window.addEventListener('scroll', handleScroll);
 
     return (
