@@ -4,10 +4,11 @@
     @include section;
     padding: 150px 6%;
     color: #eee;
-    background: #111;
+    background: #1c1c1c;
     clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
     -webkit-clip-path: polygon(0 5%, 100% 0, 95% 100%, 0% 95%);
     margin-left: -2%;
+    position: relative;
 
     h1 {
         color: #000;

@@ -7,7 +7,7 @@ const HomeScreen = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
     const handleScroll = () => {
-        if (window.pageYOffset > window.innerHeight*0.80) {
+        if (window.pageYOffset > window.innerHeight*0.95) {
             setIsScrolled(true);
         } else {
             setIsScrolled(false)

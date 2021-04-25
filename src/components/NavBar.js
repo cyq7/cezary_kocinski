@@ -18,13 +18,14 @@ const Navbar = () => {
     return (
         <div className={isScrolled ? 'sticky navbar' : 'navbar'}>
             <div className="logo">
-                <h3><span>c</span>K</h3>
+                <span>c</span>K
             </div>
             <nav>
                 <ul className="navigation">
                     <li href="#" > Home </li>
-                    <li href="#" > About </li>
+                    <li href="#" > Skills </li>
                     <li href="#" > Projects </li>
+                    <li href="#" > About </li>
                     <li href="#" > Contact </li>
                 </ul>
             </nav>
