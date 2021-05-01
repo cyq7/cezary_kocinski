@@ -9,8 +9,15 @@ const Projects = () => {
                 {projects.map(project => {
                     return (
                         <div key={project.id} className='project'>
-                            {/* <img alt='project'></img> */}
-                            <div className='img'></div>
+                            <div className='img'>
+                                <img alt={project.altText} src={project.imgURL}></img>
+                                <div className='links'>
+                                    <a href={project.code} target="_blank" rel="noreferrer">code</a>
+                                    {project.live ? 
+                                        <a href={project.live} target="_blank" rel="noreferrer">live</a>
+                                    : null}
+                                </div>
+                            </div>
                             <div className='description'>
                                 <h3>{project.title}</h3>
                                 <ul>

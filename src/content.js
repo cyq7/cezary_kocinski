@@ -7,31 +7,46 @@ import grow from './img/grow.png'
 import puzzle from './img/puzzle.png'
 import heart from './img/heart.png'
 import student from './img/student.png'
+import poket from './img/pokemons.png'
+import flicker from './img/flicker.png'
+import balance from './img/balance.png'
 
 const projects = [
   {
     "id": "1",
     "title": "pokeT",
+    "imgURL": poket,
+    "altText": "project pokeT",
+    "code": "https://github.com/cyq7/pokeT",
+    "live": "https://cyq7.github.io/pokeT/",
     "technologies": ['React', 'API', 'JS', 'SCSS', 'CSS', 'HTML']
   },
     {
     "id": "2",
     "title": "Flicker",
+    "imgURL": flicker,
+    "altText": "project flicker",
+    "code": "https://github.com/cyq7/Flicker",
+    "live": "",
     "technologies": ['React', 'JS', 'SCSS' ]
   },
     {
     "id": "3",
     "title": "Balance",
+    "imgURL": balance,
+    "altText": "project balance",
+    "code": "https://github.com/cyq7/Balance",
+    "live": "https://cyq7.github.io/Balance/",
     "technologies": ['JS', 'CSS', 'HTML']
   },
 ]
 
-    const generalSnippet = "<h4>document.<strong>innerText</strong>(about.me)</h4>"
+    const generalSnippet = "<h4> document.<strong>innerText</strong>(about.me)</h4>"
     const sportSnippet = "<h4><strong>import</strong> { Football, Gym, Cycling } <strong>from</strong> 'sport'</h4>"
     const naturalSciencesSnippet = "<h4>naturalSciences.<strong>map</strong>(e &nbsp <strong>=></strong> &nbsp { <br /> &nbsp &nbsp &nbsp &nbsp e  <strong>===</strong> chemistry &nbsp <strong>?</strong> &nbsp 'Ugh' &nbsp <strong>:</strong> &nbsp e.enjoy() <br />})</h4>"
     const gamesSnippet = "<h4><strong>do</strong> { <br /> &nbsp &nbsp play(Games) <br /> } <strong>while</strong> (getDate() < 3 AM)</h3>"
 
-    const generalHobby = <p>I'm a Quality Assurance Specialist with 2 years of experience. I find it really cool, but I can't unleash my full potential in such a position. Since I can remember I have liked to create pretty things.  I also consider myself passionate about technology and what is associated with it. That's why I'd like to become a <span>programmer</span> and the front-end is a great combination of both of these worlds.
+    const generalHobby = <p>I'm a Quality Assurance Specialist with 2 years of experience. I find it really cool, but I can't unleash my full potential in this position. Since I can remember I have liked to create pretty things.  I also consider myself passionate about technology and what is associated with it. That's why I'd like to become a <span>programmer</span> and the front-end is a great combination of both of these worlds.
      <br></br><br></br>
      I have also completed Bachelor's Degree in Finance and Accounting at Warsaw University of Life Sciences. <img alt='student icon' className='icon' src={student}></img> Most of my free time I spend on gym and computer games.</p>
 

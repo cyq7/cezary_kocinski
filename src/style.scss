@@ -18,6 +18,10 @@ body {
             // font-size: 2em;
             font-size: 30px;
 
+            @media (min-width: 400px) {
+                font-size: 2em;
+            }
+
             @media (min-width: 992px) {
                 font-size: 3em;
             }
