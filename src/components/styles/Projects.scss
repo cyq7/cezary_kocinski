@@ -46,19 +46,17 @@
                 }
                 
                 h3 {
-                    color: transparent;
-                    -webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color: black;
+                    color: #000;
+                    // -webkit-text-stroke-width: 1px;
+                    // -webkit-text-stroke-color: black;
                     font-size: 2em;
                     text-align: right;
 
-                    @media (min-width: 576px) {
-                        font-size: 3em;
-                    }
 
                     @media (min-width: 992px) {
                         border-bottom: 0;
                         padding: 5% 0;
+                        font-size: 3em;
                     }
                 }
 
