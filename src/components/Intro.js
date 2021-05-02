@@ -13,10 +13,10 @@ const Intro = () => {
                         steps={[
                             2000,
                             'pretty things',
-                            3000,
+                            4000,
                             'websites',
                             3000,
-                            'applications',
+                            'apps',
                             3000,
                             'projects',
                             3000,

@@ -1,6 +1,8 @@
 import './styles/Skills.scss'
 
 const Skills = () => {
+
+    
     return (
         <div className = 'skills'>
             <h1>SKILLS</h1>

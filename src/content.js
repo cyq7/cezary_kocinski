@@ -17,6 +17,7 @@ const projects = [
     "title": "pokeT",
     "imgURL": poket,
     "altText": "project pokeT",
+    "description": "PokeT is some kind of pokedex. This application is based on external API. Due to that fact, app allows to find informations of any of the ever existing Pokemon. The user can query data base by inserting the name of the pokemon or use 'random' functionality.",
     "code": "https://github.com/cyq7/pokeT",
     "live": "https://cyq7.github.io/pokeT/",
     "technologies": ['React', 'API', 'JS', 'SCSS', 'CSS', 'HTML']
@@ -26,6 +27,7 @@ const projects = [
     "title": "Flicker",
     "imgURL": flicker,
     "altText": "project flicker",
+    "description": "Project in progress. Ultimately the application is to be based on a database. It is being created for my own needs. I would like to save movies in 'to watch' section and collect everything I have watched. All films will be stored in separate sections depending on my rating.",
     "code": "https://github.com/cyq7/Flicker",
     "live": "",
     "technologies": ['React', 'JS', 'SCSS' ]
@@ -35,6 +37,7 @@ const projects = [
     "title": "Balance",
     "imgURL": balance,
     "altText": "project balance",
+    "description": "This application allows you to control your income and expenses. The main page contains information about the current balance sheet, total expenses and revenues, and provides access to recent transactions. Additionally, moneyboxes help you to save money for future purposes.",
     "code": "https://github.com/cyq7/Balance",
     "live": "https://cyq7.github.io/Balance/",
     "technologies": ['JS', 'CSS', 'HTML']
@@ -54,13 +57,13 @@ const projects = [
     <br></br><br></br>
     I believe that gym teaches you that you must suck at something before you can be any good at it, and deliberately practicing and repeating the process will be your key in doing just that. The <span>self-control</span>, <span>discipline</span>, and  <span>work ethic</span>  I have cultivated within its walls has carried over to every other aspect of my life and has, without a doubt, led me to become a more confident, ambitious, and more complete individual.</p>
 
-    const naturalSciencesHobby = <p>The school killed the scientist bug in me, but now I am beginning to appreciate the power of <span>mathematics</span> and <span>physics</span>. The complexity of our world on both the micro <img alt='atom icon' className='icon' src={atom}></img> and macro <img alt='planet icon' className='icon' src={planet}></img> scale is amazing.
+    const naturalSciencesHobby = <p>The school killed the scientist bug in me, but now I'm beginning to appreciate the power of <span>mathematics</span> and <span>physics</span>. The complexity of our world on both the micro <img alt='atom icon' className='icon' src={atom}></img> and macro <img alt='planet icon' className='icon' src={planet}></img> scale is amazing.
     <br></br><br></br>
-     I love reading books and watching movies about nature and <span>astrophysics</span>. If it wasn't necessary to learn chemistry, I would probably be a doctor now. I wonder if it a coincidence that Atom was my first code editor and I started my adventure with frameworks from React. <img alt='react icon' className='icon' src={physics}></img> </p>
+     I love reading books and watching movies about nature and <span>astrophysics</span>. If it wasn't necessary to learn chemistry, I would probably be a doctor now. I wonder if it's a coincidence that Atom was my first code editor and I started my adventure with frameworks from React. <img alt='react icon' className='icon' src={physics}></img> </p>
 
     const gamesHobby = <p>I treat games as a great form of spending time with my friends. The athlete's soul makes me love <span>competition</span>. When it comes to games, I also like to be the best. <img alt='grow icon' className='icon' src={grow}></img> That's why I love <img alt='heart icon' className='icon' src={heart}></img> highly competitive multiplayer games the most. I believe that I learned more English while playing than in school.
      <br></br><br></br>
-    As a QA Specialist, I have had an opportunity to test a lot of titles. It's a fun experience to be involved in the games' <span>development</span> <img alt='puzzle icon' className='icon' src={puzzle}></img>process. </p>
+    As a QA Specialist, I've had an opportunity to test a lot of titles. It's a fun experience to be involved in the games' <span>development</span> <img alt='puzzle icon' className='icon' src={puzzle}></img> process. </p>
 
     export {
         projects,

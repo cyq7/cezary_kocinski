@@ -13,7 +13,7 @@
         background: #fff;
         transform: rotate(-3deg);
         position: relative;
-        margin: 2% 0 10%;
+        margin: 0 0 10%;
 
         @media (min-width: 992px) {
             margin-bottom: 4%;
@@ -65,7 +65,7 @@
             flex-direction: column;
             justify-content: space-between;
             width: 100%;
-            padding: 3% 5% 0;
+            padding: 3% 0% 0;
 
             @media (min-width: 992px) {
                 padding: 5% 0;
@@ -80,8 +80,8 @@
                 border-top: 0;
                 width: auto;
 
-                @media (min-width: 470px) {
-                    font-size: 1.3em;
+                @media (min-width: 450px) {
+                    font-size: 1.4em;
                 }
 
                 @media (min-width: 992px) {
@@ -89,7 +89,6 @@
                     justify-content: flex-start;
                     border-left: 2px solid rgb(255, 0, 50);
                     border-bottom: 0;
-                    font-size: 1.5em;
                 }
 
                 li {
