@@ -45,7 +45,7 @@ const resetForm = () => {
         <div className='contact'>
             <h1>CONTACT</h1>
             <div className='container'>
-                <div>
+                <div className='form'>
                     <h3>Feel free to write a direct message</h3>
                         <form id="contact-form" onSubmit={handleSubmit} method="POST">
                             <div className="form-group">
@@ -58,13 +58,19 @@ const resetForm = () => {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="message">Message</label>
-                                <textarea rows="5" name='message' value={state.message} onChange={onInputChange}></textarea>
+                                <textarea rows="10" name='message' value={state.message} onChange={onInputChange}></textarea>
                             </div>
-                        <button type="submit">Submit</button>
+                            <button type="submit">Send</button>
                     </form>
                 </div>
                 <div className='social-media'>
-
+                    <h3>You can also find me here</h3>
+                    <div className='items'>
+                        <div className='item'></div>
+                        <div className='item'></div>
+                        <div className='item'></div>
+                        <div className='item'></div>
+                    </div>
                 </div>
             </div>
         </div>
