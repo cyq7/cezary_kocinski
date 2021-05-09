@@ -46,25 +46,39 @@ const resetForm = () => {
             <h1>CONTACT</h1>
             <div className='container'>
                 <div className='form'>
-                    <h3>Feel free to write a direct message</h3>
-                        <form id="contact-form" onSubmit={handleSubmit} method="POST">
+                    <h4>Feel free to write a direct message</h4>
+                        <form id="contact-form" onSubmit={handleSubmit} autoComplete="off" method="POST">
                             <div className="form-group">
-                                <label htmlFor="name">Name</label>
-                                <input type="text" name='name' value={state.name} onChange={onInputChange} />
+                                <input type="text" name='name' value={state.name} required onChange={onInputChange} />
+                                <label className="label-name" htmlFor="name">
+                                  <span 
+                                    className="content-name"
+                                    style={state.name === "" ? null : {transform: "translateY(-130%)", color: "rgb(255, 0, 50)"}}
+                                  >Name</span>
+                                </label>                               
                             </div>
                             <div className="form-group">
-                                <label htmlFor="exampleInputEmail1">Email address</label>
-                                <input type="email" name='email' value={state.email} onChange={onInputChange}/>
+                                <input type="email" name='email' value={state.email} required onChange={onInputChange}/>
+                                <label  className="label-name" htmlFor="email">
+                                  <span 
+                                    className="content-name"
+                                    style={state.email === "" ? null : {transform: "translateY(-130%)", color: "rgb(255, 0, 50)"}}
+                                    >Email address</span>
+                                </label>
                             </div>
-                            <div className="form-group">
-                                <label htmlFor="message">Message</label>
-                                <textarea rows="10" name='message' value={state.message} onChange={onInputChange}></textarea>
+                            <div 
+                            className="message-group"
+                            style={state.message === "" ? null : {height: "200px", paddingTop: "2em"}}>
+                                <textarea rows="10" name='message' value={state.message} required onChange={onInputChange}></textarea>
+                                <label className="label-text" htmlFor="message">
+                                  <span className="content-text">Message</span>
+                                </label>
                             </div>
                             <button type="submit">Send</button>
                     </form>
                 </div>
                 <div className='social-media'>
-                    <h3>You can also find me here</h3>
+                    <h4>You can also find me here</h4>
                     <div className='items'>
                         <div className='item'></div>
                         <div className='item'></div>
