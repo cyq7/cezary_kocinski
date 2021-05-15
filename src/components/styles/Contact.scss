@@ -16,25 +16,38 @@
         }
 
         .form,
-        .social-media {
+        .header {
             display: flex;
             flex-direction: center;
             justify-content: center;
             flex-direction: column;
             max-width: 600px;
-            margin: 5% auto;
-            padding: 5%;
+            padding: 0 5%;
+            width: 100%;
+            margin: 0 auto;
 
             @media (min-width: 992px) {
                 width: 50%;
-                margin: 0 auto;
             }
 
-            h4 {
-                text-align: center;
-                padding-bottom: 40px;
-                font-size: 1.2em;
+            h3 {
+                text-align: left;
+                font-size: 1.3em;
+                padding: 5%;
+
+                @media (min-width: 992px) {
+                    font-size: 2em;
+                }
             }
+
+            p {
+                padding: 5%;
+                font-size: 1.1em;
+            }
+        }
+
+        .header {
+            margin-top: 5%;
         }
 
 
@@ -186,20 +199,6 @@
                 cursor: pointer;
                 background:rgb(255, 0, 50);
                 color: #fff;
-            }
-        }
-
-        .items {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-
-            .item {
-                width: 50px;
-                height: 50px;
-                background: #333;
-                padding: 20px;
-                margin: 3%;
             }
         }
     }

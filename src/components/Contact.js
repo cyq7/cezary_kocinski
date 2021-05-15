@@ -45,8 +45,11 @@ const resetForm = () => {
         <div className='contact'>
             <h1>CONTACT</h1>
             <div className='container'>
+                <div className='header'>
+                  <h3>I'd <strong>love</strong> to hear from you!</h3>
+                  <p>Feel free to write a direct message if you have any questions. Just fill the form and I will get in touch with you shortly. </p>
+                </div>
                 <div className='form'>
-                    <h4>Feel free to write a direct message</h4>
                         <form id="contact-form" onSubmit={handleSubmit} autoComplete="off" method="POST">
                             <div className="form-group">
                                 <input type="text" name='name' value={state.name} required onChange={onInputChange} />
@@ -76,15 +79,6 @@ const resetForm = () => {
                             </div>
                             <button type="submit">Send</button>
                     </form>
-                </div>
-                <div className='social-media'>
-                    <h4>You can also find me here</h4>
-                    <div className='items'>
-                        <div className='item'></div>
-                        <div className='item'></div>
-                        <div className='item'></div>
-                        <div className='item'></div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    background: #151515;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+    p {
+        padding: 3%;
+        font-size: 0.9em;
+        letter-spacing: normal;
+    }
+
+    .icons {
+        padding: 3%;
+        width: 100%;
+        text-align: center;
+
+        a {
+            color: #fff;
+        }
+        
+        .icon {
+            padding: 20px;
+            font-size: 1.2em;
+        }
+    }
+}
