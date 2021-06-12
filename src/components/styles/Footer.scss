@@ -6,10 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 50px 3%;
 
     p {
-        padding: 3%;
+        padding: 20px;
         font-size: 0.9em;
         letter-spacing: normal;
     }
@@ -26,6 +26,10 @@
         .icon {
             padding: 20px;
             font-size: 1.2em;
+
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
 }

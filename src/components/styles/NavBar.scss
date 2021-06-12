@@ -13,7 +13,7 @@
     transition: all 0.5s;
 
     .logo {
-        font-size: 3em;
+        font-size: 2.5em;
         transition: all 0.5s;
         font-weight: 700;
 
@@ -27,15 +27,58 @@
         list-style-type: none;
         display: flex;
 
-        li {
+        span {
             margin: 10px;
             padding: 0.1em 0.5em;
             font-weight: 300;
             cursor: pointer;
+            background: transparent;
 
             &:hover {
                 background: rgb(255, 0, 50)
             }
+        }
+
+        @media (max-width: 700px) {
+            display: none;
+        }
+
+    }
+
+    .toggle-btn {
+        display: none;
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.5s;
+
+        .bar {
+            width: 100%;
+            height: 2px;
+            margin: auto 0;
+            background: #fff;
+        }
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #fff;
+            transition: all 0.5s;
+        }
+
+        &::before {
+            top: 5px;
+        }
+
+        &::after {
+            bottom: 5px;
+        }
+
+        @media (max-width: 700px) {
+            display: flex;
         }
     }
 }
@@ -50,3 +93,47 @@
     }
 }
 
+.toggle {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    align-items: inherit;
+    padding: 5%;
+    z-index: 100;
+
+    .navigation {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+        li {
+            font-size: 20px;
+            text-align: center;
+            margin: 1.3em;
+            width: 100%;
+        }
+    }
+
+    .toggle-btn {
+        .bar {
+            display: none;
+        }
+        &::before {
+            transform: rotate(45deg);
+            top: 15px;
+        }
+        &::after {
+            transform: rotate(-45deg);
+            bottom: 15px;
+        }
+    }
+}
+
+.active {
+    background: transparent;
+}
