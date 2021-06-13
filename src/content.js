@@ -61,7 +61,8 @@ const projects = [
     <br></br><br></br>
      I love reading books and watching movies about nature and <span>astrophysics</span>. If it wasn't necessary to learn chemistry, I would probably be a doctor now. I wonder if it's a coincidence that Atom was my first code editor and I started my adventure with frameworks from React. <img alt='react icon' className='icon' src={physics}></img> </p>
 
-    const gamesHobby = <p>I treat games as a great form of spending time with my friends. The athlete's soul makes me love <span>competition</span>. When it comes to games, I also like to be the best. <img alt='grow icon' className='icon' src={grow}></img> That's why I love <img alt='heart icon' className='icon' src={heart}></img> highly competitive multiplayer games the most. I believe that I learned more English while playing than in school.
+    const gamesHobby = <p>
+    I consider games to be a great form of spending time with my friends. The athlete's soul makes me love <span>competition</span>. When it comes to games, I also like to be the best. <img alt='grow icon' className='icon' src={grow}></img> That's why I love <img alt='heart icon' className='icon' src={heart}></img> highly competitive multiplayer games the most. I believe that I learned more English while playing than in school.
      <br></br><br></br>
     As a QA Specialist, I've had an opportunity to test a lot of titles. It's a fun experience to be involved in the games' <span>development</span> <img alt='puzzle icon' className='icon' src={puzzle}></img> process. </p>
 

@@ -3,7 +3,6 @@ import { Link } from 'react-scroll'
 import './styles/NavBar.scss'
 
 const Navbar = () => {
-    const navbar = document.getElementById('navbar');
     const[isScrolled, setIsScrolled] = useState(false);
 
     const handleScroll = () => {
@@ -17,9 +16,11 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     const toggle = () => {
+        const navbar = document.querySelector('#navbar');
         navbar.classList.toggle('toggle');
     }
     const closeNavbar = () => {
+        const navbar = document.querySelector('#navbar');
         if(navbar.classList.contains('toggle')) {
             navbar.classList.remove('toggle');
         }
