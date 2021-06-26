@@ -38,7 +38,7 @@ const handleSubmit = e => {
 }
 
 const resetForm = () => {
-    this.setState({name: "", email: "", message: ""})
+    setState({name: "", email: "", message: ""})
   }
 
     return (

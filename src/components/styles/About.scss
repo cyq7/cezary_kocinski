@@ -148,6 +148,7 @@
             margin: auto;
             display: flex;
             align-items: flex-start;
+            transition: 0.5s;
 
             @media (min-width: 992px) {
                 width: 60%;

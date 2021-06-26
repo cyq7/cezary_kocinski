@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import NavBar from './NavBar';
 import HomeScreen from './HomeScreen';
 import Intro from './Intro';
@@ -12,6 +13,7 @@ import './styles/App.scss'
 const App = () => {
     return (
         <div className='container'>
+            <div id='progress-bar'></div>
             <NavBar />
             <HomeScreen />
             <Intro id="intro"/>
