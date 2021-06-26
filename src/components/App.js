@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import NavBar from './NavBar';
 import HomeScreen from './HomeScreen';
 import Intro from './Intro';
