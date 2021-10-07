@@ -177,16 +177,16 @@
         }
     }
 
-    &:after {
-         content: '';
-         width: 84%;
-         height: 80%;
-         position: absolute;
-         top: 10%;
-         left: 8%;
-         clip-path: polygon(0 0, 60% 0, 100% 25%, 100% 100%, 40% 100%, 0 75%);
-         border: 1px solid #fff;
-    }
+    // &:after {
+    //      content: '';
+    //      width: 84%;
+    //      height: 80%;
+    //      position: absolute;
+    //      top: 10%;
+    //      left: 8%;
+    //      clip-path: polygon(0 0, 60% 0, 100% 25%, 100% 100%, 40% 100%, 0 75%);
+    //      border: 1px solid #fff;
+    // }
 
     @media (min-width: 576px) {
         padding-bottom: 50px;
